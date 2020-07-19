@@ -29,6 +29,7 @@ namespace Concurrency.Chess
         /// <summary>
         /// Test we can read while updating.
         /// </summary>
+        [Microsoft.Concurrency.TestTools.UnitTesting.Ignore]
         [Test]
         [DataRaceTestMethod]
         public void TestConcurrentReadAndUpdate()
